@@ -23,8 +23,20 @@ hash = "EF4AD5E9DD1982ED" # default.xex
         value = 0x01
 
 [[patch]]
+    name = "Occlusion Query Fix"
+    desc = "Force occlusion testing against full-resolution depth, reducing geometry popping that sometimes occurs when using strict occlusion queries."
+    author = "boma"
+    is_enabled = false
+
+    [[patch.be32]]
+        address = 0x827b2bd0
+        value = 0x39600000
+    [[patch.be32]]
+        address = 0x827b6c58
+        value = 0x39600000
+
+[[patch]]
     name = "Disable Lens Flares"
-    desc = "Fixes unoccluded bright lights on-screen."
     author = "illusion"
     is_enabled = false
 
@@ -34,13 +46,9 @@ hash = "EF4AD5E9DD1982ED" # default.xex
 
 [[patch]]
     name = "Disable Ambient Occlusion"
-    desc = "Fixes various artifacts when using upscaling."
     author = "illusion, boma"
     is_enabled = false
 
-    [[patch.be32]]
-        address = 0x82593dc4
-        value = 0x39600000
     [[patch.be32]]
         address = 0x82762c54
         value = 0x39600000

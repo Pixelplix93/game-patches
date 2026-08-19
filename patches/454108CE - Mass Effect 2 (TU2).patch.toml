@@ -52,7 +52,6 @@ hash = "3D790F44F99FCF0E" # default.xex
 
 [[patch]]
     name = "Disable Lens Flares"
-    desc = "Fixes unoccluded bright lights on-screen without breaking interactibles."
     author = "HouseofTudor"
     is_enabled = false
 

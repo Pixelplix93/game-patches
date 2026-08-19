@@ -31,7 +31,6 @@ hash = "C4EA5EACCA7CA7CD" # codmp_xenonf.xex
 
 [[patch]]
     name = "Disable Lens Flares"
-    desc = "Fixes unoccluded bright lights on-screen."
     author = "Clippy95, fragsareus"
     is_enabled = false
 

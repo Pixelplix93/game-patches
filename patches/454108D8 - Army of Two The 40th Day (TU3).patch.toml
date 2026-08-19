@@ -21,7 +21,6 @@ hash = [
 
 [[patch]]
     name = "Disable Lens Flares"
-    desc = "Fixes unoccluded bright lights on-screen."
     author = "boma"
     is_enabled = false
 

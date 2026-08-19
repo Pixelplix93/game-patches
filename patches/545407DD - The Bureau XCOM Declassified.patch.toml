@@ -21,7 +21,6 @@ hash = "C075E7B7EE3DA59E" # default.xex
 
 [[patch]]
     name = "Disable Lens Flares"
-    desc = "Fixes unoccluded bright lights on-screen without breaking waypoints."
     author = "Sowa_95"
     is_enabled = false
 

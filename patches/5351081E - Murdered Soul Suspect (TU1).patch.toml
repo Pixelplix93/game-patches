@@ -28,7 +28,7 @@ hash = "ACAB43DD6B5B0E62" # default.xex
 
 [[patch]]
     name = "Disable Lens Flares"
-    desc = "Fixes unoccluded bright lights on-screen. Also disables big flare in Julia encounters, changing overall look of this scene. Not required on occlusion_query = strict."
+    desc = "Also disables big flare in Julia encounters, changing overall look of this scene. Not required on occlusion_query = strict."
     author = "Sowa_95"
     is_enabled = false
 
